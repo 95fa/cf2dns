@@ -21,8 +21,7 @@ KEY = "o1zrmHAF"
 #CM:移动 CU:联通 CT:电信
 #修改需要更改的dnspod域名核子域名
 DOMAINS = {
-    "hostmonit.com": {"@": ["CM","CU","CT"], "shop": ["CM", "CU", "CT"], "stock": ["CM","CU","CT"]},
-    "4096.me": {"@": ["CM","CU","CT"], "vv": ["CM","CU","CT"]}
+    "95fa.com": {"www": ["CM","CU","CT"], "img": ["CM", "CU", "CT"]},
 }
 
 #解析生效条数 免费的DNSPod相同线路最多支持2条解析
@@ -34,8 +33,8 @@ DNS_SERVER = 1
 #API 密钥
 #腾讯云后台获取 https://console.cloud.tencent.com/cam/capi
 #阿里云后台获取 https://help.aliyun.com/document_detail/53045.html?spm=a2c4g.11186623.2.11.2c6a2fbdh13O53  注意需要添加DNS控制权限 AliyunDNSFullAccess
-SECRETID = 'AKIDVmxtxxxxxxxxxxxfo8CzfjgN'
-SECRETKEY = 'ZrVszqxxxxxxxxxxjOp1zVl'
+SECRETID = 'AKIDX1QiplaHqEUglgu3WpxwnV2OadWEOa5P'
+SECRETKEY = 'KXbXJl8MPHzYw9B5rRq6C8tTvDKG2e6N'
 
 log_cf2dns = Logger('cf2dns.log', level='debug') 
 urllib3.disable_warnings()
