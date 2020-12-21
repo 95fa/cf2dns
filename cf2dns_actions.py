@@ -13,7 +13,7 @@ import urllib3
 import os
 
 #可以从https://shop.hostmonit.com获取
-KEY = os.environ["KEY"]  #"FzcKswnkCjLk"
+KEY = os.environ["KEY"]  #"1Cv6P5QOwzPI"
 #CM:移动 CU:联通 CT:电信
 #修改需要更改的dnspod域名核子域名
 DOMAINS = json.loads(os.environ["DOMAINS"])  #{"hostmonit.com": {"@": ["CM","CU","CT"], "shop": ["CM", "CU", "CT"], "stock": ["CM","CU","CT"]},"4096.me": {"@": ["CM","CU","CT"], "vv": ["CM","CU","CT"]}}
